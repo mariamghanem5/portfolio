@@ -78,6 +78,8 @@ th {
 	}
 	table {
 		font-size:14px;
+		justify-content:center;
+		display:flex;
 		margin:0
 	}
 	
