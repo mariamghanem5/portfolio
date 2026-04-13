@@ -29,12 +29,15 @@ nav a:hover {
 }
 
 table {
-	width:40%;
+	width:90%;
 	cursor:pointer;
 	font-size:100%;
 	text-align: center;
-	margin-left:380px;
+	margin-left:auto;
+	margin-right:auto;
 	border-radius:5px;
+	
+	
 }
 
 button {
