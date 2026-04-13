@@ -71,4 +71,13 @@ th {
 	color:white;
 }
 
-@media (max-width:600px)
+@media (max-width:600px) {
+	nav a {
+		display:block;
+		margin:5px;
+	}
+	table {
+		font-size:14px;
+	}
+	
+}
