@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+	border-radius:5px;
+    font-size:20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+	transition:0.3s;
+}
+
+table {
+	width:40%;
+	cursor:pointer;
+	font-size:100%;
+	text-align: center;
+	margin-left:380px;
+	border-radius:5px;
+}
+
+button {
+    cursor:pointer;
+	border-radius:5px;
+    background-color: navy;
+    color: white;
+}
+
+button:hover {
+	opacity:0.8;
+
+
+}
+button:active {
+	opacity:0.4;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+	font-size:20px;
+	cursor:pointer;
+
+}
+
+input,placeholder {
+	font-size:20px;
+	border-radius:5px;
+}
+
+th {
+	background-color:navy;
+	color:white;
+}
+
+@media (max-width:600px)
