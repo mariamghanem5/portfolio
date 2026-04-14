@@ -1,24 +1,29 @@
 body {
     font-family: Arial;
+	background-color:rgb(231,231,224);
 }
 
 header {
-    background-color: navy;
-    color: white;
+    background-color:rgb(79,0,5);
+    color:rgb(210,205,195);
     text-align: center;
 	cursor:pointer;
 	border-radius:5px;
 }
 
+header:hover {
+	color:yellow;
+}
+
 nav {
-    background-color: gray;
+    background-color:rgb(28,28,27);
     text-align: center;
 	border-radius:5px;
     font-size:20px;
 }
 
 nav a {
-    color: white;
+    color:rgb(210,205,195);
     margin: 10px;
     text-decoration: none;
 }
@@ -42,8 +47,8 @@ table {
 button {
     cursor:pointer;
 	border-radius:5px;
-    background-color: navy;
-    color: white;
+    background-color:rgb(79,0,5);
+    color:rgb(210,205,195);
 }
 
 button:hover {
@@ -69,8 +74,8 @@ input,placeholder {
 }
 
 th {
-	background-color:navy;
-	color:white;
+    background-color:rgb(79,0,5);
+    color:rgb(210,205,195);
 }
 
 @media (max-width:700px) {
